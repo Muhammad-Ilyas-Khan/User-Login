@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Login</title>
+    <style>
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f0f0f0; /* Light gray background */
+        border-radius: 10px;
+      }
+
+      h2 {
+        text-align: center;
+        font-family: Futura, sans-serif;
+        font-size: larger;
+      }
+
+      .input-group {
+        margin-bottom: 20px;
+      }
+
+      .icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: calc(100% - 40px);
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff; /* Blue background */
+        color: #fff; /* White text */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>User Login</h2>
+      <div class="input-group">
+        <span class="icon"
+          ><img src="./User-Login/images/icons8-username-64.png" alt=""
+        /></span>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+        />
+      </div>
+      <div class="input-group">
+        <span class="icon"
+          ><img src="./User-Login/images/icons8-password-50.png" alt=""
+        /></span>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+      </div>
+      <button type="submit" class="btn">Login</button>
+    </div>
+  </body>
+</html>
